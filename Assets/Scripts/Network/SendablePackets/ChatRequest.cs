@@ -1,0 +1,9 @@
+﻿
+public class ChatRequest : SendablePacket
+{
+    public ChatRequest(string message)
+    {
+        WriteShort(13); // Packet id.
+        WriteString(message);
+    }
+}

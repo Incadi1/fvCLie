@@ -1,0 +1,1 @@
+StepSound event triggered by run_fwd animation at frames 7 and 16.
